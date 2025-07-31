@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CSC210 - Intro to Web Presentaiton and Development - For classes A1, B1, and C2">
+    <meta name="keywords" content="Neumont, CSC210, web dev, web development, student, portfolio, HTML5, CSS3">
+    <meta name="author" content="Jeremy Stroup">
+
+    <!-- The OG here means Open Graph, which tags control for social media channels. -->
+    <meta property="og:title" content="CSC210 - Intro to Web Presentation and Development">
+    <meta property="og:description" content="This could be your personal portfolio to showcase your web dev and project">
+    <meta property="og:type" content="website">
+
+    <title>Neumont CSC210 - Introduction to Web Devleopment and Presentaiton</title>
+    <link rel="icon" type="image/jpeg" href="c:\VSCode\Neumont\Intro_to_Web_Dev\Zach_infront_of_board.jpg">
+    <link rel="stylesheet" href="css-files/style.css">
+  </head>
+  <body>
+    <!-- HTML5 Semantic Header -->
+    <header role="banner">
+      <button class="theme-toggle" id="theme-toggle">🌙 Dark Mode</button>
+      <div class="container">
+        <h1>Ryan Johnson</h1>
+        <p class="tagline">CSC210 Student </p>
+      </div>
+    </header>
+    <!-- HTML5 Semantic Navigation -->
+    <nav class="header-navigation" role="navigation" aria-label="Main navigation">
+      <div class="container">
+        <ul>
+          <li><a href="index.html" aria-describedby="about-desc">Home</a></li>
+          <li><a href="skills.html" aria-describedby="skills-desc">My Skills</a></li>
+          <li><a href="projects.html" aria-describedby="project-desc">Amazing Projects</a></li>
+          <li><a href="about_me.html" aria-describedby="contact-desc">Contact Me!</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- HTML5 Main Content -->
+    <main id="main-content" role="main">
+      <div class="container">
+        <section id="skills" aria-labelledby="skills-heading">
+          <h2 id="skills-heading">My Skills!</h2>
+          <div class="skills-content">
+            <div class="skills-text">
+              <p>The <strong>skills</strong> I have learned in my life are:</p>
+              <aside class="skills-list" aria-labelledby="skills-list">
+                <h2 id="skills-list">Programming</h2>
+                <ul>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                  <li>Python</li>
+                  <li>Java</li>
+                  <li>C++</li>
+                  <li>SQL</li>
+                  <li>Lua</li>
+                  </ul>
+                  <h2>Content Creation</h2>
+                  <ul>
+                    <li>Video Editing</li>
+                    <li>Instruments (Alto Sax, Piano, Guitar)</li>
+                  </ul>
+                  <ul>
+                    <h2>Managerial Skills</h2>
+                    <li>Time management</li>
+                    <li>Conflict De-escalation</li>
+                    <li>Leadership</li>
+                </ul>
+                </aside>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- JavaScript -->
+     <script src="js-files/skills_page.js"></script>
+     <script src="js-files/main.js"></script>
+  </body>
+</html>

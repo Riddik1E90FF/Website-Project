@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CSC210 - Intro to Web Presentaiton and Development - For classes A1, B1, and C2">
+    <meta name="keywords" content="Neumont, CSC210, web dev, web development, student, portfolio, HTML5, CSS3">
+    <meta name="author" content="Jeremy Stroup">
+
+    <!-- The OG here means Open Graph, which tags control for social media channels. -->
+    <meta property="og:title" content="CSC210 - Intro to Web Presentation and Development">
+    <meta property="og:description" content="This could be your personal portfolio to showcase your web dev and project">
+    <meta property="og:type" content="website">
+
+    <title>Neumont CSC210 - Introduction to Web Devleopment and Presentaiton</title>
+    <link rel="icon" type="image/jpeg" href="c:\VSCode\Neumont\Intro_to_Web_Dev\Zach_infront_of_board.jpg">
+    <link rel="stylesheet" href="css-files/style.css">
+  </head>
+  <body>
+    <!-- HTML5 Semantic Header -->
+    <header role="banner">
+      <button class="theme-toggle" id="theme-toggle">🌙 Dark Mode</button>
+      <div class="container">
+        <h1>Ryan Johnson</h1>
+        <p class="tagline">CSC210 Student </p>
+      </div>
+    </header>
+    <!-- HTML5 Semantic Navigation -->
+    <nav class="header-navigation" role="navigation" aria-label="Main navigation">
+      <div class="container">
+        <ul>
+          <li><a href="index.html" aria-describedby="about-desc">Home</a></li>
+          <li><a href="skills.html" aria-describedby="skills-desc">My Skills</a></li>
+          <li><a href="projects.html" aria-describedby="project-desc">Amazing Projects</a></li>
+          <li><a href="about_me.html" aria-describedby="contact-desc">Contact Me!</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- HTML5 Main Content -->
+    <main id="main-content" role="main">
+      <div class="container">
+        <!-- About Section with HTML5 semantic elements -->
+        <section id="about" aria-labelledby="about-heading">
+          <h2 id="about-heading">About Me</h2>
+          <div class="about-content">
+            <div class="about-text">
+              <p>My name is <strong>Ryan</strong>, I am <em>18</em>, and currently enrolled at Neumont College of Computer Science. I am heavily interested in programming and coding, as well as video games. I am 6'0 with red hair, and currently do not have a job. My skills are in programming, videogames, computers, video editing, as well as a few "points" into leadership and conflict resolution. </p>
+              <details>
+                <summary>Journey</summary>
+                <p>Started first html coding on July 3, 2025. On top of CSS.</p>
+              </details>
+            </div>
+            <aside class="interests" aria-labelledby="interests-heading">
+              <h3 id="interests-heading">Interests</h3>
+              <ul>
+                <li>
+                  <span role="img" aria-label="Gaming">🎮</span>
+                  Gaming (Marvel Rivals, The Isle, Windblown, Skyrim, and so many more)
+                </li>
+                <li>
+                  <span role="img" aria-label="Programming">💻</span>
+                  Programming (HTML5, CSS3, JavaScript, Python, Java, C++, SQL, Lua)
+                </li>
+                <li>
+                  <span role="img" aria-label="Music">🎵</span>
+                  Music (Piano, Alto Sax, Electric/Acoustic Guitar, Producing, DAWs, Singing)
+                </li>
+                <li>
+                  <span role="img" aria-label="Learning">📚</span>
+                  Learning new technology and state of the art tricks.
+                </li>
+              </ul>
+            </aside>
+          </div>
+        </section>
+      </div>
+      <div class="container">
+        <section id="contact" aria-labelledby="contact-heading">
+          <h2 id="contact-heading">Contact Me</h2>
+          <div class="contact-content">
+            <div class="contact-text">
+              <p>If you would like to get in touch with me, use one of these methods below. Ordered in descending order by priority</p>
+              <ul>
+                <li>Discord @ expl0deb0ss</li>
+                <li>Email @ ahryguy@gmail.com</li>
+                <li>Teams @ ryajohnson@student.neumont.edu</li>
+                <li>LinkedIn @ Ryan Johnson</li>
+                <li>GitHub @ Riddik1E90FF</li>
+              </ul>            
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- JavaScript -->
+     <script src="js-files/about_me_page.js"></script>
+     <script src="js-files/main.js"></script>
+  </body>
+</html>
